@@ -175,10 +175,11 @@ footer {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+ 
 }
 
 .chat-header {
-  background-color: #075e54;
+  background-color: #8f57d3;
   color: #fff;
   padding: 15px;
   text-align: center;
@@ -193,7 +194,7 @@ footer {
 }
 
 .message {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   display: inline-block;
   clear: both;
 }
@@ -209,12 +210,12 @@ footer {
 .message-content {
   padding: 10px;
   border-radius: 10px;
-  max-width: 70%;
+  max-width: 80%;
   word-wrap: break-word;
 }
 
 .sender .message-content {
-  background-color: #dcf8c6;
+  background-color: #c4a1f1;
 }
 
 .receiver .message-content {
@@ -239,7 +240,7 @@ footer {
 }
 
 .chat-input button {
-  background-color: #128c7e;
+  background-color: #8f57d3;
   color: #fff;
   border: none;
   padding: 10px 20px;
