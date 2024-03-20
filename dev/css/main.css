@@ -308,56 +308,78 @@ footer {
 }
 /* Login */
 .login-container {
-    width: 300px;
-    margin: 100px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.input-group {
-    margin-bottom: 20px;
-}
-
-.input-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-/*registro*/
-.registro-container {
   background-color: #ffffff;
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input-group .icono {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+
+.input-group input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  padding-left: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/*registro*/
+.header1{
+  background-color: #8f57d3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 10px 10%;
+  border-radius: 5px;
+}
+.header1 .logo{
+  cursor: pointer;
+}
+.header1 .logo img{
+  text-align: left;
+  height: 60px;
+  width: auto;
+  transition: all 0.3s;
+}
+.header1 .logo img:hover{
+  transform: scale(1.1);
+}
+.registro-container {
+  background-color: #ffffff;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px 10%;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
