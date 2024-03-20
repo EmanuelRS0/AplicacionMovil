@@ -615,6 +615,10 @@ button:hover {
   height: auto;
   width: 60px;
   border-radius: 8px;
+  transition: all 0.3s;
+}
+.Planes img:hover{
+  transform: scale(1.1);
 }
 .Usua{
   background-color:#8f57d3;
@@ -660,4 +664,8 @@ button:hover {
   height: auto;
   width: 30px;
   border-radius: 2px;
+  transition: all 0.3s;
+}
+.Cartasss img:hover{
+  transform: scale(1.1);
 }
