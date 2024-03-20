@@ -404,7 +404,7 @@ button:hover {
 }
 
 a {
-    color: #ffffff;
+    color: black;
     text-decoration: none;
 }
 
@@ -496,6 +496,9 @@ button:hover {
   padding: 5px 10%;
   border-radius: 10px;
 }
+.header2 .ir a{
+  color: white;
+}
 .header2 .logo{
   cursor: pointer;
 }
@@ -509,9 +512,9 @@ button:hover {
 }
 .header2 .ir button{
   font-weight: 40px;
-  color: #ffffff;
+  color:#8f57d3;
   padding: 5px 8px;
-  background: #0074b700;
+  background:black;
   border: none;
   border-radius: 50px;
   cursor: pointer;
