@@ -487,3 +487,62 @@ button:hover {
   height: auto;
   border-radius: 7%;
 }
+.header2{
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 5px 10%;
+  border-radius: 10px;
+}
+.header2 .logo{
+  cursor: pointer;
+}
+.header2 .logo img{
+  height: 60px;
+  width: auto;
+  transition: all 0.3s;
+}
+.header2 .logo img:hover{
+  transform: scale(1.1);
+}
+.header2 .ir button{
+  font-weight: 40px;
+  color: #ffffff;
+  padding: 5px 8px;
+  background: #0074b700;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.header2 .ir button:hover{
+  background-color:#8f57d3 ;
+  color: #000000;
+  transform: scale(1.2);
+}
+/* carrucel*/
+.carrusel-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.slide {
+  display: none;
+  border-radius: 7px;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  width: 100px;
+  height: auto;
+  border-radius: 7px;
+}
+

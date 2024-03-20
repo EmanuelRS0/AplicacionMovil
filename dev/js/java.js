@@ -28,3 +28,16 @@ document.addEventListener("DOMContentLoaded", function() {
         chatMessages.scrollTop = chatMessages.scrollHeight;
     }
 });
+
+let slideIndex = 0;
+const slides = document.querySelectorAll('.slide');
+
+function mostrarSlide() {
+    slides.forEach(slide => slide.style.display = "none");
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(mostrarSlide, 2000); // Cambiar imagen cada 2 segundos (2000 milisegundos)
+}
+
+mostrarSlide();
