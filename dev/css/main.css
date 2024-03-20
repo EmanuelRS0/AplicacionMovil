@@ -307,11 +307,17 @@ footer {
   overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
 }
 /* Login */
+.inicio img{
+  height: 300px;
+  width: auto;
+  align-items: center;
+  padding-left: 50px;
+}
 .login-container {
   background-color: #ffffff;
   max-width: 400px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 10%;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -325,19 +331,33 @@ footer {
   position: relative;
 }
 
-.input-group .icono {
+.input-group .icon {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 10px;
 }
 
-.input-group input {
+.input-group .icon img {
+  width: 20px; /* Ajusta el tamaño del icono según sea necesario */
+  height: auto;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
   width: calc(100% - 40px);
   padding: 10px;
   padding-left: 40px;
   border-radius: 5px;
   border: 1px solid #ccc;
+}
+
+.input-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.button-group {
+  text-align: center;
 }
 
 button {
@@ -348,11 +368,45 @@ button {
   background-color: #4caf50;
   color: #ffffff;
   cursor: pointer;
+  display: inline-block;
 }
 
 button:hover {
   background-color: #45a049;
 }
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /*registro*/
 .header1{
   background-color: #8f57d3;
