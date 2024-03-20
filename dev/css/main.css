@@ -339,7 +339,7 @@ footer {
 }
 
 .input-group .icon img {
-  width: 20px; /* Ajusta el tamaño del icono según sea necesario */
+  width: 15px; /* Ajusta el tamaño del icono según sea necesario */
   height: auto;
 }
 
@@ -354,6 +354,7 @@ footer {
 
 .input-group input[type="checkbox"] {
   margin-right: 5px;
+  position: absolute;
 }
 
 .button-group {
