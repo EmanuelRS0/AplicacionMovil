@@ -526,7 +526,7 @@ button:hover {
 .carrusel-container {
   width: 100%;
   overflow: hidden;
-  position: absolute;
+  position: relative;
   border-radius: 7px;
   padding: 5px;
   display: flex;
@@ -542,7 +542,7 @@ button:hover {
 }
 
 .slide img {
-  width: 150px;
+  width: 152px;
   height: auto;
   border-radius: 7px;
 }
@@ -585,11 +585,76 @@ button:hover {
   padding-left: 15%;
   padding: 10px;
   text-align:center;
+  border-bottom: 1px dashed #000;
+  cursor: help;
 }
 .nos{
   font-size: 30px;
   padding-left: 15%;
   padding: 10px;
   text-align:center;
+  border-bottom: 1px dashed #000;
+  cursor: help;
 
+}
+.pla{
+  font-size: 30px;
+  padding-left: 15%;
+  padding: 10px;
+  text-align:center;
+
+}
+.Planes{
+  display: flex;
+  justify-content: space-between;
+}
+.Planes img{
+  height: auto;
+  width: 60px;
+  border-radius: 8px;
+}
+.Usua{
+  background-color:#8f57d3;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 8px;
+  height: 40px;
+
+}
+.Usua .Usar{
+  font-size: 20px;
+  padding-left: 8%;
+  padding: 5px;
+  text-align:center;
+  cursor: help;
+}
+.Usua img{
+  height: 40px;
+  width: auto;
+  margin-right: 30px;
+
+}
+.xf{
+  display: block;
+  position: relative;
+
+}
+.contenedor-imagenesM1{
+  display: flex; /* Utilizar flexbox */
+  justify-content: space-between;
+}
+.imagenM1 img{
+  width: 20px;
+  height: auto;
+}
+.Cartasss{
+  display: flex;
+  justify-content: space-between;
+}
+.Cartasss img{
+  padding: auto;
+  height: auto;
+  width: 30px;
+  border-radius: 2px;
 }
