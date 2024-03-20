@@ -312,6 +312,10 @@ footer {
   width: auto;
   align-items: center;
   padding-left: 50px;
+  transition: all 0.3s;
+}
+.inicio img:hover{
+  transform: scale(1.1);
 }
 .login-container {
   background-color: #ffffff;
