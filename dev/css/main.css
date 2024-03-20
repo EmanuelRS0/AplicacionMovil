@@ -168,7 +168,9 @@ footer {
   max-width: 120px; /* Tamaño máximo de la imagen */
   height: auto; /* Altura automática para mantener la proporción */
 }
-
+.seccion {
+  position: relative; /* Asegura que los elementos dentro de la sección respeten su espacio */
+}
 .chat-container {
   max-width: 500px;
   margin: 20px auto;
@@ -176,11 +178,15 @@ footer {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
-  max-height: 500px;
+  max-height: 400px;
   max-height: calc(100% - 100px); /* Ajusta la altura máxima del contenedor del chat */
-     
- 
+  height: 350px;
 }
+.chat-wrapper {
+  max-height: 300px; /* Altura máxima del contenedor del chat */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical permanente */
+}
+
 
 .chat-header {
   background-color: #8f57d3;
