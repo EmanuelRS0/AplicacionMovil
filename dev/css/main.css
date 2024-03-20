@@ -476,3 +476,14 @@ button {
 button:hover {
   background-color: #45a049;
 }
+.reg{
+  text-align: center;
+}
+.reg img{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80px;
+  height: auto;
+  border-radius: 7%;
+}
